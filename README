@@ -1,0 +1,3 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3703
+
+This syntax definitions provide highlighting the common text objects used by the Zim Desktop Wiki (http://zim-wiki.org/). Basically the Zim wiki syntax is the same Dokuwiki (http://www.dokuwiki.org/dokuwiki) uses, but with some significant differences. So I decided to write this simple syntax file, for situations when you want to edit a Zim wiki page without the possibility to use Zim itself.
