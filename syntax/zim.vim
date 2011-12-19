@@ -1,6 +1,7 @@
 " vim:tabstop=2:shiftwidth=2:expandtab:foldmethod=marker:textwidth=79
 " Zimwiki syntax file
-" Author: Sören König <soeren-koenig@freenet.de>
+" Last Change: 2011 Dec 19
+" Maintainer: Sören König <soeren-koenig@freenet.de> 
 
 " Quit if syntax file is already loaded
 if version < 600
@@ -19,12 +20,12 @@ endif
 
 syntax case ignore
 
-syntax match  taskpaperComment "^.*$"
-syntax match  taskpaperProject       /^.\+:\s*$/
-syntax match  taskpaperLineContinue ".$" contained
-syntax match  taskpaperListItem  "^\s*[-+]\s\+"
-syntax match  taskpaperContext  "@[A-Za-z0-9_]\+"
-syntax match  taskpaperDone "^\s*[-+]\s\+.*@[Dd]one.*$"
+syntax match  ZimwikiComment "^.*$"
+syntax match  ZimwikiProject       /^.\+:\s*$/
+syntax match  ZimwikiLineContinue ".$" contained
+syntax match  ZimwikiListItem  "^\s*[-+]\s\+"
+syntax match  ZimwikiContext  "@[A-Za-z0-9_]\+"
+syntax match  ZimwikiDone "^\s*[-+]\s\+.*@[Dd]one.*$"
 
 " Headers
 syntax match ZimwikiHeader1 /^\s*=\{6}[^=]\+.*[^=]\+=\{6}\s*$/
